@@ -31,8 +31,9 @@ Installation
   - Or by using the PKGBUILD [nbfc-linux-git](pkgbuilds/nbfc-linux-git/PKGBUILD)
 
 - With Nix:
+  - [Declaratively with nix flakes](nixos-installation-new.md)
   - With legacy nix (`nix-env -if .`)
-  - With nix flakes (`nix profile install`)
+  - Imperatively With nix flakes (`nix profile install`)
   - [On NixOS](nixos-installation.md)
 
 - Fedora - this will not build the current working directory, but downloads a source archive from chosen release on github and builds an installable rpm:
