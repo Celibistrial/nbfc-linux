@@ -27,7 +27,7 @@
 
                 installPhase =
                   let
-                    installFlags = [ "PREFIX=$out" ];
+                    installFlags = [ "PREFIX=$out" "confdir=$out/etc"];
                   in
                   ''
                     make ${builtins.concatStringsSep " " installFlags}\
